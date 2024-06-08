@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+ .wrapper{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2024-01/240111-iowa-snow-mn-0855-71b63b.jpg);
+    height: 420px;
+    margin-top: 100px;
+    border-radius: 5px;
+ }
+
+button{
+    font-size: 35px;
+    padding: 0px 30px;
+    margin: 2.5px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+ .save{
+    padding: 0 89px;
+    background-color: green;
+}
+
+.increment{
+    background-color: red;
+} 
+
+.header, .numbers{
+    margin: 4px 0;
+}
+
+.numbers{
+    font-size: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.increment:hover{
+    background-color: rgb(66, 13, 13);
+    cursor: pointer;
+} 
+ .save:hover{
+    background-color: rgb(17, 39, 17);
+    cursor: pointer;
+}
+
+#saved{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkred;
+}
+
+.reset{
+    font-size: 35px;
+    padding: 0px 77px;
+    margin: 2.5px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 0, 255);
+}
